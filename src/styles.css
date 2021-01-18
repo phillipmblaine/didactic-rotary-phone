@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  font-size: 80%;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  background-attachment: fixed;
+}
+
+body {
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
